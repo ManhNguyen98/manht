@@ -1,0 +1,26 @@
+{
+  "name": "mono-repo",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManhNguyen98/manht"
+  },
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build packages/*/ --no-optimize"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/manht"
+  ],
+  "dependencies": {
+    "parcel": "^2.4.1"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
